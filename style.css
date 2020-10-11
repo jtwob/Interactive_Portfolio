@@ -1,0 +1,71 @@
+body {
+  background-color: gray;
+}
+
+p{
+  margin-bottom: 40px;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color: teal;
+}
+
+img{
+  margin: 5px;
+  margin-bottom: 10px;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 13px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  height: 50px;
+}
+
+.submit{
+  margin-bottom: 20px;
+  border: none;
+  background-color: teal;
+  color: white;
+  padding: 8px 16px 8px 16px;
+}
+
+.inputtext{
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.container{
+  margin-left: 30px;
+}
+
+.col-md-8{
+  background-color: white;
+  margin-top: 80px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+@media (max-width: 570px){
+  .container{
+    margin-left: 0;
+  }
+
+  img{
+    margin-left: 50px;
+  }
+
+}
