@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-image: url("./assets/double-bubble.png");
 }
 
 p{
@@ -15,14 +15,15 @@ img{
   margin: 5px;
   margin-bottom: 10px;
 }
+
 footer{
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   padding-top: 13px;
-  background-color: #333333;
-  color: white;
+  background-color: #f8f9fa;
+  color: teal;
   text-align: center;
   height: 50px;
 }
